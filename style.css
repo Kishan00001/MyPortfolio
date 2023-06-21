@@ -25,7 +25,7 @@ nav{
 .logo{
     display: flex;
     font-size: 40px;
-    color: #3d535f;
+    color: black;
     letter-spacing: 3px;
     cursor: pointer;
     text-transform: uppercase;
@@ -39,19 +39,19 @@ nav{
 }
 .navItems li a{
     font-size: 25px;
-    color: #3d535f;
+    color: black;
     letter-spacing: 3px;
     text-decoration: none;
     text-transform: capitalize;    
 }
 .navItems li:hover a,
 .links a:hover{
-    color: #7f00ff;
+    color:  rgba(0, 68, 255, 0.808);
 }
 
 .links a{
     font-size: 30px;
-    color: #3d535f;
+    color: black;
     margin: 25px 10px;
 }
 .wrapper{
@@ -73,7 +73,7 @@ nav{
     border-radius: 50%;
     left: -12%;
     top: 40%;
-    background: linear-gradient(45deg,#7f00ff,pink);
+    background: linear-gradient(45deg, rgba(0, 68, 255, 0.808),rgb(129, 245, 245));
     animation: object1 6s linear infinite;
 }
 .wrapper::after{
@@ -84,7 +84,7 @@ nav{
     border-radius: 50%;
     left: 35%;
     top: 12%;
-    background: linear-gradient(45deg,#7f00ff,pink);
+    background: linear-gradient(45deg, rgba(0, 68, 255, 0.808),rgb(129, 245, 245));
     animation: object2 6s linear infinite;
 }
 @keyframes object1 {
@@ -111,16 +111,16 @@ nav{
     position: relative;
     font-size: 35px;
     letter-spacing: 5px;
-    color: #3d535f;
+    color: black;
 }
 h1{
     display: block;
     font-size: 3em;
     font-weight: 900;
-    color: #3d535f;
+    color: black;
 }
 .multiText{
-    color: #7f00ff;
+    color:  rgba(0, 68, 255, 0.808);
     text-transform:  capitalize;
 }
 p{
@@ -128,7 +128,7 @@ p{
     width: 90%;
     font-size: 1.2em;
     text-align: justify;
-    color: #3d535f;
+    color: black;
 }
 .btns{
     width: 100%;
@@ -142,7 +142,7 @@ button{
     font-size: 25px;
     font-weight: 400;
     color: #fff;
-    background-color: #3d535f;
+    background-color: black;
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
@@ -151,7 +151,7 @@ button{
     
 }
 button:hover{
-    background-color: #7f00ff;
+    background-color:  rgba(0, 68, 255, 0.808);
 }
 a{
     color: white;
@@ -183,7 +183,8 @@ a{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotate(-35deg);
+    transform: translate(-50%,-50%);
+    height: 170%;
     width: 160%;
     filter: saturate(200%);
     animation: animate 4s linear infinite;
